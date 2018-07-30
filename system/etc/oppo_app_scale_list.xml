@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright (c) 2016-2050 OPPO Mobile Comm Corp., Ltd, All rights reserved.
+** OPPO Technologies Proprietary and Confidential.
+** The xml is for config game resolution.
+** For example scale 1.5 change 1080*1920 to 720*1280 (1080/720=1.5)
+** Author:xiaori.yuan@oppo.com
+*/
+-->
+<filter-conf>
+    <version>2017092717</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_app_scale_list</filter-name>
+    <game>
+        <PackageName>com.imangi.templerun2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.kiloo.subwaysurf</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.netease.dhxy.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2d.fishingjoy3</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.gbits.atm.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.nextwave.wcc2</PackageName>
+        <scale>1.5</scale>
+    </game>
+</filter-conf>

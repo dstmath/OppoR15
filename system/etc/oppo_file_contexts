@@ -1,0 +1,288 @@
+#ifdef VENDOR_EDIT
+#Jiemin.Zhu@Swdp.Android.SELinux, 2016/05/26, add for oppo  customization
+
+/dev/stm_sensor                                 u:object_r:stm_sensor_device:s0
+
+/sys/bus/i2c/devices/i2c-0/0-0029/enable_ps_sensor                  u:object_r:sysfs_ps_sensor:s0
+
+/sys/devices/virtual/fpsensor/fpc1020/state                         u:object_r:sysfs_fp_state:s0
+
+#ifdef VENDOR_EDIT
+#Wenxian.Zhen@BSP.Power.Basic,  2017/1/19 11:00:20, add for factory AT  mode
+/system/bin/factory	u:object_r:factory_exec:s0
+#endif
+
+
+#ifdef VENDOR_EDIT
+#Yilong.Wei@PSW.NW.RF.1178789, 2017/12/11
+#add for Screen MIPI frequency interference GSM reception
+/sys/class/graphics/fb0/dynamic_dsitiming  u:object_r:sysfs_fp_dynamic_dsitiming:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#hongbo.dai@Camera,  2017/1/19 11:00:20, add for factory AT  mode
+/system/bin/mm-qcamera-daemon	u:object_r:qcamera-daemon_exec:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#yixue.Ge@BSP.Drv, 2016/06/01, Add for bspCriticalLog
+/system/bin/bspCriticalLog	u:object_r:bspCriticalLog_exec:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#ifdef VENDOR_EIDT
+#Yan.Bin@Swdp.Android.SELinux, 2016/06/06, add for oppo log
+/data/oppo_log(/.*)?	u:object_r:oppo_log_data_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Haiping.Zhong@Swdp.Android.SELinux, 2017/02/19, add for file_contexts
+/fstab-at\..*          u:object_r:rootfs:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#yixue.Ge@BSP.Drv, 2016/06/01, Add for pcba_diag
+/system/bin/pcba_diag	u:object_r:pcba_diag_exec:s0
+#endif
+
+#ifdef COLOROS_EDIT
+#ZhiYong.Lin@Plf.Framework : Add for ruril 2017-01-11
+/system/bin/rutilsdaemon    u:object_r:rutilsdaemon_exec:s0
+
+#ZhiYong.Lin@Plf.Framework : Add for datafree 2017-01-11
+/system/bin/datafree    u:object_r:rutilsdaemon_exec:s0
+
+#ZhiYong.Lin@Plf.Framework : Add for backuprestore 2017-01-11
+/system/bin/br_app_data_service    u:object_r:rutilsdaemon_exec:s0
+#endif
+
+#ifdef COLOROS_EDIT
+#Shuaiqi.Li@ROM.Framework.OTA, 2017/11/11, Add for odexmove file to data
+/system/bin/odexmove    u:object_r:rutilsdaemon_exec:s0
+#endif /* COLOROS_EDIT */
+
+#ifdef COLOROS_EDIT
+#wurun.zhou@Apps.Theme, 2011/11/02, add for oppo rom theme
+/data/theme(/.*)?   u:object_r:oppo_theme_data_file:s0
+/data/system/font(/.*)?  u:object_r:oppo_font_data_file:s0
+#endif COLOROS_EDIT
+
+#ifdef VENDOR_EIDT
+#Jiemin.Zhu@Swdp.Android.SELinux, 2016/11/08, add for protect dcim
+/data/media/0/DCIM/Camera(/.*)?       u:object_r:media_rw_data_file:s0
+/data/media/0/DCIM/Screenshots(/.*)?       u:object_r:media_rw_data_file:s0
+/data/.recycle(/.*)?    u:object_r:oppo_recycle_file:s0
+/sys/module/sdcardfs/parameters/skipd_enable    u:object_r:oppo_dcim_sysfs:s0
+#Added by Tangtao@Cam.Drv, 2017/09/18 for thirdparty setting
+/data/.camera(/.*)?                    u:object_r:data_camera_update:s0
+#endif /* VENDOR_EIDT */
+
+#ifdef VENDOR_EDIT
+#Haiping.Zhong@Swdp.Android.SELinux, 2017/02/19, add for file_contexts
+#/autochmod\.sh          u:object_r:autochmod-sh_exec:s0
+#/(vendor|system/vendor)/bin/autochmod.sh     u:object_r:qti_init_shell_exec:s0
+
+#endif /* VENDOR_EDIT */
+
+
+#ifdef VENDOR_EDIT
+#Jiemin.Zhu@Swdp.Android.Stability.Crash, 2017/01/03, add for coredump
+/data/core(/.*)?    u:object_r:oppo_core_data_file:s0
+#enidf /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Qiang.shao@Prd6.system.SELinux, 2016/07/30, Add for define self-init type
+/system/bin/self-init u:object_r:self_init_exec:s0
+#endif /*VENDOR_EDIT*/
+
+#ifdef VENDOR_EDIT
+#Jiemin.Zhu@Swdp.Android.SELinux, 2017/03/13, add for sepolicy_debug
+/sepolicy_debug    u:object_r:rootfs:s0
+#endif /* VENDOR_EDIT */
+
+#Canjie.Zheng@PSW.AD.OppoDebug.CriticalLog.1067207,2017/10/10,Add for CriticalLog
+/system/bin/criticallog u:object_r:criticallog_exec:s0
+/system/bin/asserttip u:object_r:oppoasserttip_exec:s0
+/system/bin/autochmod.sh     u:object_r:oppodebugtool_exec:s0
+/system/bin/junklogcollector u:object_r:junklog_exec:s0
+/system/bin/screenrecord     u:object_r:screen_record_exec:s0
+#endif /* VENDOR_EDIT */
+
+#Runsheng.Pei@PSW.AD.OppoFeature.UsageRecord.1140185, 2014/07/22, Add to provide a function
+/system/bin/ousage u:object_r:ousage_exec:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Jianhua.Sun@PSW.AD.Charge.QuickBoot.1129994, 2016/06/06, Add for quickboot
+/system/bin/quickboot u:object_r:quickboot_exec:s0
+#endif
+
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Wei.Wang@PSW.AD.Storage.FileSystem.F2fs.1054207, 2017/02/17, Add for support resize userdata partition
+/system/bin/resize\.f2fs    u:object_r:resizef2fs_exec:s0
+#endif /* VENDOR_EIDT */
+
+#ifdef VENDOR_EDIT
+#Wei.Wang@PSW.AD.Storage.FileSystem.F2fs.1054207, 2017/02/17, Add for support resize userdata partition
+/system/bin/resize_ext4   u:object_r:resize_ext4_exec:s0
+#endif /* VENDOR_EIDT */
+
+#ifdef VENDOR_EDIT
+#Xuefeng.Peng@PSW.AD.Storage.1281706, 2018/02/21, Add for support fsck.fat check for android 8.1
+/system/bin/fsck\.fat   --   u:object_r:fsck_exec:s0
+#endif /* VENDOR_EIDT */
+
+#ifdef VENDOR_EDIT
+#Min.Yi@PSW.CN.WiFi.Hardware.1075545 ,2017/11/02
+#Add for : Wifi ftm from the engineer app
+/system/bin/wififtmtest    u:object_r:wifi_ftm_exec:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Min.Yi@PSW.CN.WiFi.Hardware.1070678,2017/04/30, add for wifi rf testing
+/system/bin/wifirftest   u:object_r:wifirftest_exec:s0
+/dev/socket/wifirf   u:object_r:wifirf_socket:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Min.Yi@PSW.CN.WiFi.Hardware.1178256 ,2017/12/28
+#Add for : Wifi ftm from the pc tools
+/system/bin/wifi_diag    u:object_r:wifi_diag_exec:s0
+/system/bin/wifistopftmtest    u:object_r:wifi_diag_stop_exec:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Wang.Mengmeng@PSW2, 2017/11/02, Add for oiface
+/system/bin/oiface   u:object_r:oiface_exec:s0
+#endif /* VENDOR_EIDT */
+
+#ifdef VENDOR_EDIT
+#Yadi.Xiao@EXP.NW.MDM.Common, 2017/06/27, Add for exp production read indicate
+/data/system/indicate  u:object_r:data_system_indicate:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef COLOROS_EDIT
+#ZhiYong.Lin@Plf.Framework,2017.10.27:add for coloros app to access the system data file. etc
+/system/oppo(/.*)?        u:object_r:coloros_data_file:s0
+/data/oppo/coloros(/.*)?  u:object_r:coloros_data_file:s0
+#endif COLOROS_EDIT
+
+#ifdef COLOROS_EDIT
+#ZhiYong.Lin@Plf.Framework, 2017/11/04, add this file for allow all app can access the oppo_public_data file, and platform_app
+# system_app, priv_app, system_server etc has create permission.
+/data/oppo/common(/.*)?  u:object_r:oppo_public_data_file:s0
+#Bin.Wang@Plf.Framework,2017.12.13:add for coloros app to reserve data while clear data in recovery
+/data/format_unclear(/.*)?  u:object_r:oppo_public_data_file:s0
+#endif COLOROS_EDIT
+
+#ifdef VENDOR_EDIT
+#Linjie.Xu@PSW.AD.Power.PowerMonitor.1138570, 2017/10/30, Add for OppoPowerMonitor save files
+/data/oppo/psw(/.*)?    u:object_r:oppo_psw_data_file:s0
+#enidf /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Canjie.Zheng@PSW.AD.OppoDebug.LogKit.1080426, 2017/10/27, Add for device log and minidump
+/data/oppo/log(/.*)? u:object_r:oppo_log_file:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#Shengjun.Gou@PSW.MM.Display.Feature, 2017/10/29, add for oppodisplay
+/system/bin/oppodisplay    u:object_r:oppodisplay_exec:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#jie.cheng@swdp.shanghai, 2015/11/09, add selinux policy
+/system/bin/chcon                               u:object_r:chcon_exec:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#jie.cheng@swdp.shanghai, 2015/11/09, add selinux policy
+/sys/kernel/hypnus/view_info                                        u:object_r:sysfs_hypnus:s0
+/sys/kernel/hypnus/scene_info                                       u:object_r:sysfs:s0
+/sys/kernel/hypnus/action_info                                      u:object_r:sysfs:s0
+/sys/kernel/hypnus/notification_info                                u:object_r:sysfs:s0
+/sys/kernel/hypnus/log_state                                        u:object_r:sysfs:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#Yixue.Ge@PSW.BSP.hypnus, 2017/11/03, Add for hypnus
+/data/hypnus(/.*)?  u:object_r:oppo_hypnus_data_file:s0
+#endif
+
+#ifdef COLOROS_EDIT
+#FangZhen@APP.tools.Basic,2017/11/1, Add for backuprestore android O
+/dev/socket/backuprestore u:object_r:backuprestore_socket:s0
+#endif COLOROS_EDIT
+
+#ifdef VENDOR_EDIT
+#Likuan.Ren@PSW.AD.Package.GoogleResource, 2017/12/07, Add for open files in /data/gr/
+/data/gr(/.*)? u:object_r:oppo_gr_data_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Peng.Zhong@PSW.AD.Input.1149733, 2017/11/08, Add for input dynamically log in Android O.
+/data/logswitch(/.*)? u:object_r:oppo_logswitch_file:s0
+#endif
+
+#ifdef VENDOR_EDIT
+#WangMengmeng@PSW2, 2017/12/12
+/data/oiface                    u:object_r:oiface_data_file:s0
+#hanshiguang@Swdp.Shanghai, 2017/11/14, add for neo
+/dev/socket/neo        u:object_r:neo_socket:s0
+/system/bin/neo        u:object_r:neo_exec:s0
+/dev/kneuron            u:object_r:chr_device:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#huangsu@Swdp.Shanghai, 2017/11/14, add for neo
+/data/system/neuron_system(/.*)?      u:object_r:neo_data_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef COLOROS_EDIT
+#wangzhenhua@Plf.Framework,2017/10/09, modify for oppo kevent
+/system/bin/oppo_kevent              u:object_r:oppo_kevents_exec:s0
+/data/oppo/kevent(/.*)?              u:object_r:kevent_data_file:s0
+#endif /* COLOROS_EDIT */
+
+#ifdef VENDOR_EIDT
+#Rongchun.Zhang@PSW.MM.Display.SF.Feature, 2017/12/27, add for SF dump backtrace
+/data/sf(/.*)?  u:object_r:oppo_sfwatchdog_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EIDT
+#ChenTian@PSW.AD.SElinux.1186872,2018/01/4, add for appchannel SElinux
+/data/etc/appchannel(/.*)? u:object_r:oppo_appchannel_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#wangmingyuan@PSW2, 2017/12/12
+/sys/module/hypnus/parameters(/.*)? u:object_r:sysfs_kneuron:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef COLOROS_EDIT
+#YaJun.Li@PSW.MM.Daemon.Base,2018/02/08, add for multimedia daemon list
+# system_app, priv_app, untrusted_app,oppo_dcim_app,system_server has this permission.
+/data/oppo/multimedia(/.*)?  u:object_r:oppo_multimedia_file:s0
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Runsheng.Pei@PSW.AD.Storage.ReservePartition.1207580, 2017/12/29, Add for new reserve partition
+/opporeserve(/.*)?     u:object_r:oppo_reserve_file:s0
+/opporeserve/radio(/.*)?     u:object_r:oppo_reserve_radio_file:s0
+/opporeserve/system(/.*)?     u:object_r:oppo_reserve_system_file:s0
+/opporeserve/media(/.*)?      u:object_r:oppo_reserve_media_file:s0
+/opporeserve/system/config(/.*)?        u:object_r:oppo_reserve_system_config:s0
+/opporeserve/media/log(/.*)?            u:object_r:oppo_reserve_media_log:s0
+/opporeserve/media/engineermode(/.*)?   u:object_r:oppo_reserve_media_engineermode:s0
+/opporeserve/media/ColorOS(/.*)?        u:object_r:oppo_reserve_media_coloros:s0
+/opporeserve/media/Camera(/.*)?         u:object_r:oppo_reserve_media_camera:s0
+/opporeserve/media/dropbox(/.*)?        u:object_r:oppo_reserve_media_dropbox:s0
+#endif
+
+#ifdef COLOROS_EDIT
+#mashaolong@Apps.InputMethod, 2018/02/02, add for gboard input method
+/data/etc/GBoard(/.*)?   u:object_r:gboard_data_file:s0
+/data/etc/GBoard/themes(/.*)?   u:object_r:gboard_theme_file:s0
+#endif COLOROS_EDIT

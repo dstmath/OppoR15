@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <!-- add for the zone  -->
+    <p att="fj.cmcc.mdm.client"></p>
+    <alarm att="fj.cmcc.mdm.client"></alarm>
+    <encrypt att="fj.cmcc.mdm.client"></encrypt>
+    <p att="komect.aqb.mdmstu.client"></p>
+    <alarm att="komect.aqb.mdmstu.client"></alarm>
+    <encrypt att="komect.aqb.mdmstu.client"></encrypt>
+</gs>

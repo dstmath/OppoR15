@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20170828</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_display_perf_list</filter-name>
+    <name>sf.dps.feature</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>987,0,0,0,0,0,0,0</flag>
+
+    <name>/system/bin/mediaserver</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>4,1,2,0,0,0,0,0</flag>
+
+    <name>com.tencent.tvoem</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.tencent.qqlive</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.sohu.sohuvideo</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.youku.phone</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.tudou.android</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.qiyi.video</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <name>com.gbits.atm.nearme.gamecenter</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.cf</name>
+    <fps>25,25,25,30,30</fps>
+    <vsync>25,25,25,30,30</vsync>
+    <flag>0,1,4,0,0,0,0,0</flag>
+
+    <name>com.netease.my.nearme.gamecenter</name>
+    <fps>30,30,30,30,30</fps>
+    <vsync>30,30,30,30,30</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.netease.dhxy.nearme.gamecenter</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.sgame</name>
+    <fps>25,25,25,25,25</fps>
+    <vsync>25,25,25,25,25</vsync>
+    <flag>0,1,4,2,0,0,0,0</flag>
+
+    <name>com.kiloo.subwaysurf</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,55,55</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.RunGame</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.happyelements.AndroidAnimal</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.changba</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.karaoke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.kuwo.sing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang:aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.app.hero.ui</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>sg.bigo.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cmcm.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cwj.hsing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.anhlt.karaokeonline</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.sroksrae.kskara</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.machipopo.media17</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>chat.meme.inke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.asiainno.uplive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.wali.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.nice.tutulive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.mm</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.zbx.ct.tvzhibo</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungolive</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungoliveallstar</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>cn.cntv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>dopool.player</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.sjdszb.oppova</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>SmartVolume.Wechat.DB.Level</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,19,1,0</flag>
+
+    <!-- below is Taiwan -->
+    <!-- 卡戰無雙 - 非一般の競技遊戲 -->
+    <name>com.foyo.hlsg</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.foyo.hlsg/com.foyo.hlsg.AppActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- 元素物語 -->
+    <name>tw.sonet.es</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - tw.sonet.es/twsonet.es.MainActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+
+
+    <!-- 小小主公 -->
+    <name>com.taptaptapgame.tkd</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.taptaptapgame.tkd/com.go.xxzg.UnityPlayerNativeActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+
+    <!-- CHOCO TV -->
+
+
+    <!-- xiaoying -->
+    <name>com.quvideo.xiaoying</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>com.quvideo.xiaoying/com.quvideo.xiaoying.common.ui.custom.VideoPlayerActivity</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+    <scene>com.quvideo.xiaoying/com.quvideo.xiaoying.videoeditor.simpleedit.VideoTrimActivity</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,1,3,0,0,0,0,0</flag>
+
+
+    <!-- below is Australia -->
+    <!-- flipdriving -->
+    <name>com.motionvolt.flipdiving</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.motionvolt.flipdiving/com.miniclip.flipdiving.FlipDivingActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.motionvolt.flipdiving/com.miniclip.flipdiving.FlipDivingActivity</scene>
+    <scene>com.motionvolt.flipdiving/com.jirbo.adcolony.AdColonyFullscreen</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+    <!-- com.productmadness.hovmobile -->
+    <name>com.productmadness.hovmobile</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.productmadness.hovmobile/com.productmadness.hovmobile.AppEntry</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>org.videolan.vlc</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,1,3,0,0,0,0,0</flag>
+    <scene>org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,1,3,0,0,0,0,0</flag>
+
+    <!-- below is singopo -->
+    <!-- dentistcutekids -->
+    <name>com.iaw.dentistcutekids</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.iaw.dentistcutekids/com.unity3d.player.UnityPlayerActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- connectanimals -->
+    <name>com.firegamestudio.connectanimals</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.firegamestudio.connectanimals/org.cocos2dx.cpp.AppActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- Mobile Strike -->
+    <name>com.epicwaronline.ms</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.epicwaronline.ms/com.mz.jix.MainActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- mx player -->
+    <name>com.mxtech.videoplayer.ad</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,1,3,0,0,0,0,0</flag>
+
+
+
+
+    <!-- below is newer for india and other countries -->
+    <!-- com.google.android.youtube -->
+
+    <!-- com.google.android.videos -->
+
+
+
+
+    <!-- com.outfit7.mytalkingtomfree -->
+    <name>com.outfit7.mytalkingtomfree</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.outfit7.mytalkingtomfree/com.outfit7.mytalkingtom.MyTalkingTomNativeActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.outfit7.mytalkingtomfree/com.outfit7.mytalkingtom.MyTalkingTomNativeActivity</scene>
+    <scene>com.outfit7.mytalkingtomfree/com.outfit7.mytalkingtom.MyTalkingTomNativeActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.appsomniacs.da2 -->
+    <name>com.appsomniacs.da2</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.appsomniacs.da2/com.appsomniacs.da2.DA2Activity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.supercell.clashofclans -->
+    <name>com.supercell.clashofclans</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.supercell.clashofclans/com.supercell.clashofclans.GameApp</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.king.candycrushsodasaga -->
+    <name>com.king.candycrushsodasaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.candycrushsodasaga/com.king.candycrushsodasaga.StritzActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.candycrushsodasaga/com.king.candycrushsodasaga.StritzActivity</scene>
+    <scene>com.king.candycrushsodasaga/com.king.candycrushsodasaga.StritzActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.king.candycrushsaga -->
+    <name>com.king.candycrushsaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.candycrushsaga/com.king.candycrushsaga.CandyCrushSagaActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.king.blossomblast -->
+
+    <!-- com.king.candycrushjellysaga -->
+    <name>com.king.candycrushjellysaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.candycrushjellysaga/com.king.candycrushjellysaga.StritzActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.supercell.hayday -->
+    <name>com.supercell.hayday</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.supercell.hayday/com.supercell.hayday.GameApp</scene>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- gsn.game.zingplaynew1 -->
+    <name>gsn.game.zingplaynew1</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - gsn.game.zingplaynew1/gsn.game.AppActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.kits.projectp -->
+    <name>com.kits.projectp</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.kits.projectp/org.cocos2dx.cpp.AppActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- me.pou.app -->
+    <name>me.pou.app</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - me.pou.app/me.pou.app.App</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.miniclip.eightballpool -->
+    <name>com.miniclip.eightballpool</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.outfit7.mytalkingangelafree-->
+    <name>com.outfit7.mytalkingangelafree</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.outfit7.mytalkingangelafree/com.outfit7.mytalkingangela.MyTalkingAngelaNativeActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.outfit7.mytalkingangelafree/com.outfit7.mytalkingangela.MyTalkingAngelaNativeActivity</scene>
+    <scene>com.outfit7.mytalkingangelafree/com.outfit7.mytalkingangela.MyTalkingAngelaNativeActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.playrix.township -->
+    <name>com.playrix.township</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.playrix.township/com.playrix.township.GPlayActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.playrix.township/com.playrix.township.GPlayActivity</scene>
+    <scene>com.playrix.township/com.playrix.township.GPlayActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.linecorp.LGGRTHN -->
+    <name>com.linecorp.LGGRTHN</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.linecorp.LGGRTHN/com.linecorp.LGMARBLE.LGMARBLE</scene>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.cmplay.tiles2 -->
+    <name>com.cmplay.tiles2</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.cmplay.tiles2/com.cmplay.tile2.ui.AppActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.king.farmheroessaga -->
+    <name>com.king.farmheroessaga</name>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.farmheroessaga/com.king.farmheroessaga.FarmHeroesSagaActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.farmheroessaga/com.king.farmheroessaga.FarmHeroesSagaActivity</scene>
+    <scene>com.king.farmheroessaga/com.king.farmheroessaga.FarmHeroesSagaActivity</scene>
+    <fps>45,45,45,60,60</fps>
+    <vsync>45,45,45,60,60</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <!-- com.mojang.minecraftpe -->
+
+    <name>com.nextwave.wcc2</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.nextwave.wcc2/com.prime31.UnityPlayerNativeActivity</scene>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.walnut.strive</name>
+    <fps>40,40,40,50,50</fps>
+    <vsync>40,40,40,50,50</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.walnut.strive/com.unity3d.player.VideoPlayer</scene>
+    <fps>40,40,40,50,50</fps>
+    <vsync>40,40,40,50,50</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.walnut.strive/com.walnut.strive.UnityPlayerNativeActivity</scene>
+    <fps>40,40,40,50,50</fps>
+    <vsync>40,40,40,50,50</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.ea.gp.minions</name>
+    <fps>32,32,32,50,50</fps>
+    <vsync>32,32,32,50,50</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.ea.gp.minions/com.ea.gp.minions.MainActivity</scene>
+    <fps>32,32,32,50,50</fps>
+    <vsync>32,32,32,50,50</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.teenpatti.hd.gold</name>
+    <fps>25,25,25,30,30</fps>
+    <vsync>25,25,25,30,30</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.teenpatti.hd.gold/com.teenpatti.hd.gold.gold</scene>
+    <fps>25,25,25,30,30</fps>
+    <vsync>25,25,25,30,30</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.vectorunit.redcmgeplaycn</name>
+    <fps>30,30,30,35,35</fps>
+    <vsync>30,30,30,35,35</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>net.peakgames.amy</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - net.peakgames.amy/net.peakgames.mobile.android.inappbilling.unity.activities.IabUnityAndroidPlayerNativeActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.rovio.angrybirdsrio</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.rovio.angrybirdsrio/com.rovio.fusion.App</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.rovio.baba</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.rovio.baba/rovio.baba.facebook.AbbaUnityActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>io.teslatech.callbreak</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - io.teslatech.callbreak/org.cocos2dx.javascript.AppActivity</scene>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.king.petrescuesaga</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.king.petrescuesaga/com.king.petrescuesaga.PetRescueSagaActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.vng.g6.a.zombie</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.vng.g6.a.zombie/com.hungbt.bhnotification.OverrideUnityActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.prettysimple.criminalcaseandroid</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.bitmango.rolltheballunrollme</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.bitmango.rolltheballunrollme/com.bitmango.rolltheballunrollme.UnityPlayerActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.fungames.sniper3d</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.fungames.sniper3d/com.tfg.libs.billing.unity.BillingActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.games24x7.ultimaterummy.playstore</name>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.games24x7.ultimaterummy.playstore/com.games24x7.ultimaterummy.playstore.UltimateRummyActivity</scene>
+    <fps>35,35,35,40,40</fps>
+    <vsync>35,35,35,40,40</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.rovio.angrybirds</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.rovio.angrybirds/com.rovio.fusion.App</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.games24x7.teenpatti.playstore</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.games24x7.teenpatti.playstore/com.games24x7.android.games.teenpatti.views.TeenPattiActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.nordcurrent.canteenhd</name>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.nordcurrent.canteenhd/com.nordcurrent.canteenhd.MainActivity</scene>
+    <fps>35,35,35,45,45</fps>
+    <vsync>35,35,35,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.aim.racing</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.aim.racing/com.unity3d.player.UnityPlayerNativeActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.junerking.archery</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.junerking.archery/com.junerking.archery.MainActivity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+    <name>com.midasplayer.apps.bubblewitchsaga2</name>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>0,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView - com.midasplayer.apps.bubblewitchsaga2/com.midasplayer.apps.bubblewitchsaga2.BubbleWitchSaga2Activity</scene>
+    <fps>40,40,40,45,45</fps>
+    <vsync>40,40,40,45,45</vsync>
+    <flag>1,1,4,0,0,0,0,0</flag>
+
+</filter-conf>
